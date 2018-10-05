@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 't!help') {
-    	message.reply('The prefix for TheSavageDevs is t!. This bot is in WIP and will not function as intended. Thank you.');
+    	message.reply('```The prefix for TheSavageDevs is t!. This bot is in WIP and will not function as intended. Thank you.```');
   	}
 });
 
