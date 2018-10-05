@@ -1,4 +1,0 @@
-client.on('message', message => {
-    if (message.content === 't!help') {
-    	message.reply('haha no');
-  	}
