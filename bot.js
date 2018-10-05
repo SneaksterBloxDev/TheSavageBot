@@ -7,13 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-    
-client.on('message', message => {
-    if (message.content === 't!help') {
-    	message.reply('Go to our website for it ok!');
-  	}
+    	message.reply('pong')
 });
 
 // THIS  MUST  BE  THIS  WAY
