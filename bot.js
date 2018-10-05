@@ -6,12 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
-  	}
-client.on('message', message => {
     if (message.content === 't!help') {
-    	message.reply('The prefix is t!. haha');
+    	message.reply('The prefix for TheSavageDevs is t!. This bot is in WIP and will not function as intended. Thank you.');
   	}
 });
 
